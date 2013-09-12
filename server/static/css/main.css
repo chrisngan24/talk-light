@@ -1,0 +1,58 @@
+body{
+	background-image: url('../imgs/home_splash.jpg');
+}
+
+.mainContent{
+	width: 100%;
+	height :100%;
+	margin-top: 2em;
+	background-color: rgba(255, 255, 255, 0.6);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	 -o-border-radius: 10px;
+	 -ms-border-radius: 10px;
+	 -khtml-border-radius: 10px;
+	 border-radius: 10px;
+	
+	
+}
+
+.title-text{
+	text-align: center;
+}
+
+#lineGraph{
+	width: 100%;
+	height: 200px;
+}
+#pieChart{
+	width: 100%;
+	height: 200px;
+}
+
+/* line graph stuff*/
+
+.lineGraph path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+ 
+.lineGraph line {
+    stroke: black;
+}
+ 
+text {
+    font-family: Arial;
+    font-size: 9pt;
+}
+
+.axis path{
+	stroke: black;
+	stroke-width: 2;
+
+}
+
+.chartTitle{
+	text-align: center;
+}
